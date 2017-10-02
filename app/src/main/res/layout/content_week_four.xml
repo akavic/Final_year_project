@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bobby_000.dcu_orientation.WeekFourActivity"
+    android:background="@drawable/dcu"
+    tools:showIn="@layout/activity_week_four">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <LinearLayout
+            android:id="@+id/focusthisweek4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                                android:id="@+id/card_view4_1"
+                                                android:layout_width="300dp"
+                                                android:layout_height="150dp"
+                                                android:layout_gravity="center"
+                                                android:layout_margin="20dp"
+                                                card_view:cardBackgroundColor="@android:color/background_light"
+                                                card_view:cardCornerRadius="15dp"
+                                                card_view:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/info_text4_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="top"
+                        android:paddingLeft="20dp"
+                        android:text="@string/focus_this_week"
+                        android:textColor="@android:color/background_dark"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="19dp"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/list4_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"></ListView>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/weeksteps4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                                android:id="@+id/card_view4_2"
+                                                android:layout_width="300dp"
+                                                android:layout_height="580dp"
+                                                android:layout_gravity="center"
+                                                android:layout_margin="20dp"
+                                                card_view:cardBackgroundColor="@android:color/background_light"
+                                                card_view:cardCornerRadius="15dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/info_text4_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="top"
+                        android:paddingLeft="20dp"
+                        android:text="@string/week_steps"
+                        android:textColor="@android:color/background_dark"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wk_steps_wk4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="19dp"
+                    android:divider="@drawable/empty_tall_divider"
+                    android:orientation="vertical"
+                    android:showDividers="middle">
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Dcu_orientation</string>
+    <string name="title_activity_week_one">WeekOneActivity</string>
+    <string name="focus_this_week">Focus This Week</string>
+    <string name="week_steps">Week Steps</string>
+    <string name="links">Links</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_week_two">WeekTwoActivity</string>
+    <string name="title_activity_week_three">WeekThreeActivity</string>
+    <string name="title_activity_week_five">WeekFiveActivity</string>
+    <string name="title_activity_match_quiz">MatchQuizActivity</string>
+
+    <string name="option_1">Week 1</string>
+    <string name="option_2">Week 2</string>
+    <string name="option_3">Week 3</string>
+    <string name="option_4">Week 4</string> <!-- four buttons through which you can choose correct option -->
+    <string name="invalid">This is first question. Cannot go back</string>
+    <string name="next_button">Next</string>
+    <string name="prev_button">Prev</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="question_1">Which week do we focus on making friends</string>
+    <string name="question_2">Which week do we focus on changing modules</string>
+    <string name="question_3">Confirming your Programme Choice occurs in which week</string>
+    <string name="question_4">Understanding Loop occurs in which week</string>
+    <string name="question_5">Which week does Maths Support at DCU occur</string>
+
+    <string name="answer_1">Two</string>
+    <string name="answer_2">Two</string>
+    <string name="answer_3">Three</string>
+    <string name="answer_4">Three</string>
+    <string name="answer_5">Four</string>
+
+    <string name="workshop">http://www.dcu.ie/students/events.shtml</string>
+    <string name="mental_physical_wealth">http://www.dcu.ie/students/advice/resources/health_wellbeing.shtml</string>
+    <string name="pathway_to_success"> https://www.dcu.ie/advice/pathways-to-success.shtml</string>
+    <string name="changing_program">https://www.dcu.ie/advice/resources-academic.shtml</string>
+    <string name="student_learning">http://www4.dcu.ie/studentlearning/index.shtml</string>
+    <string name="library">https://www.dcu.ie/library/index.shtml</string>
+    <string name="timtable">https://www.dcu.ie/registry/timetables.shtml</string>
+    <string name="learning_style">https://www.dcu.ie/careers/about-pfs.shtml</string>
+    <string name="assignmet_writting">https://www.dcu.ie/students/events.shtml</string>
+    <string name="stress_reduction">https://www4.dcu.ie/students/counselling/mindfulness-lunchtime-course.shtml</string>
+    <string name="maths_learning_center">http://www.dcu.ie/maths/mlc/index.shtml</string>
+    <string name="academic_structure">https://www101.dcu.ie/registry/module_contents.php</string>
+
+    <string name="title_activity_week_four">WeekFourActivity</string>
+    <string name="title_activity_game_menu">GameMenuActivity</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+
+
+</resources>
